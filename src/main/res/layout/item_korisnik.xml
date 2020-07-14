@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/korisnikPadding"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/tvKorisnikIme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/KorisnikImeSize"/>
+        <TextView
+            android:id="@+id/tvKorisnikSpol"
+            android:layout_below="@id/tvKorisnikIme"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/KorisnikSpolSize"/>
+        <TextView
+            android:id="@+id/tvKorisnikGodine"
+            android:layout_below="@id/tvKorisnikSpol"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/KoisrnikGodineSize"/>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

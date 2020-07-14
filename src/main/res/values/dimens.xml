@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bookPadding">10</dimen>
+    <dimen name="BookTitleSize">10</dimen>
+    <dimen name="BookAuthorSize">10</dimen>
+    <dimen name="BookPageCountSize">10</dimen>
+    <dimen name="korisnikPadding">10</dimen>
+    <dimen name="KorisnikImeSize">10</dimen>
+    <dimen name="KorisnikSpolSize">10</dimen>
+    <dimen name="KoisrnikGodineSize">10</dimen>
+</resources>

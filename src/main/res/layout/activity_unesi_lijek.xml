@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BF6E"
+    tools:context=".UnesiLijekActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewUL"
+            android:layout_width="400dp"
+            android:layout_height="37dp"
+            android:text="Unesi lijek"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewUIML"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unesi ime lijeka"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUnesiImeLijeka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Unesi ime lijeka"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewUKL"
+            android:layout_width="400dp"
+            android:layout_height="37dp"
+            android:text="Unesi količinu lijeka"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUnesiKolicinuLijeka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Unesi kolicinu lijeka"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewTr"
+            android:layout_width="400dp"
+            android:layout_height="37dp"
+            android:text="Unesi trajanje lijeka"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUnesiTrajanjeLijeka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Unesi trajanje lijeka"
+            android:inputType="text" />
+
+
+        <TextView
+        android:id="@+id/textViewFr"
+        android:layout_width="400dp"
+        android:layout_height="37dp"
+        android:text="Unesi frekvenciju lijeka"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUnesiFrekvencijuLijeka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Unesi frekvenciju lijeka"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/textViewVr"
+            android:layout_width="400dp"
+            android:layout_height="37dp"
+            android:text="Unesi vrijeme korištenja lijeka"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUnesiVrijemeKoristenjaLijeka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Unesi vrijeme koristenja lijeka"
+            android:inputType="text" />
+
+
+
+        <TextView
+            android:id="@+id/textViewAl"
+            android:layout_width="400dp"
+            android:layout_height="37dp"
+            android:text="Alarm"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textViewSp"
+            android:layout_width="400dp"
+            android:layout_height="37dp"
+            android:text="Spremanje"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSpremiLijek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spremi lijek"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>
